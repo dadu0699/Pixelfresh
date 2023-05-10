@@ -1,0 +1,19 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "editor.formatOnSave": true,
+  "editor.suggest.showStatusBar": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[javascript][javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript][typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json][jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}
