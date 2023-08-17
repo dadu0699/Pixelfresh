@@ -18,6 +18,7 @@ jobs:
         with:
           fetch-depth: 1
 
+      # Remember to set up your Deno Deploy secret in the repository settings with the name DENO_DEPLOY_TOKEN
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
